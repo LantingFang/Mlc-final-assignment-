@@ -35,13 +35,13 @@ data = pd.read_csv("house_data.csv")
 print(data.head())
 print(data.describe())
 
-2. Explore the Data
+### 2. Explore the Data
 Key Insights:
 A house with 33 bedrooms might be an outlier worth investigating.
 Square footage ranges from 290 to 13,450, indicating diverse property sizes.
 Use .describe() and visualizations to uncover patterns.
 
-3. Visualize Key Insights
+### 3. Visualize Key Insights
 Common Number of Bedrooms
 Visualize the most common house types:
 sns.countplot(data['bedrooms'])
