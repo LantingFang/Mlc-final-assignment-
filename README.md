@@ -120,7 +120,8 @@ print(f"Gradient Boosting Accuracy: {accuracy_gbr * 100:.2f}%")
 ```
 Result:
 Accuracy: ~91.94%
-Key Takeaways
+
+## Key Takeaways
 Linear Regression is simple but may underperform on complex datasets.
 Gradient Boosting significantly improves accuracy, especially for datasets with multiple features.
 Visualization is critical for understanding data relationships.
